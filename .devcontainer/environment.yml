@@ -1,0 +1,33 @@
+name: tensorflow
+
+dependencies:
+  - python=3.9
+  - pip>=19.0
+  - jupyter
+  - scikit-learn
+  - scipy
+  - pandas
+  - pandas-datareader
+  - matplotlib
+  - pillow
+  - tqdm
+  - requests
+  - h5py
+  - pyyaml
+  - flask
+  - boto3
+  - transformers
+  - datasets
+  - tokenizers
+  - tensorboard
+  - pip:
+      - tensorflow-gpu
+      - tensorflow_datasets
+      - bayesian-optimization
+      - notebook
+      - jupyter
+      - gym
+      - kaggle
+      - boto3
+      - sagemaker
+      # - numpy
